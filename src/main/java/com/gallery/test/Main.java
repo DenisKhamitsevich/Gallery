@@ -15,7 +15,7 @@ public class Main {
         frame.setMinimumSize(new Dimension(WIDTH, HEIGHT));
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
-        boolean assetsPreloaded=true;
+        boolean assetsPreloaded=false;
         Base base=new Base(frame,assetsPreloaded);
     }
 
