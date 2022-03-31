@@ -1,0 +1,14 @@
+plugins {
+    id 'application'
+}
+
+group 'com.gallery.test'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'com.gallery.test.Main'
+}
